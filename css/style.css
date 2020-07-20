@@ -1,0 +1,28 @@
+/* HEADER */
+
+/* header top */
+.header_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 80px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 80px;
+  color: #black;
+  background-color: red;
+}
+
+.header_top .list-inline li a {
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+  padding-left: ;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+}
