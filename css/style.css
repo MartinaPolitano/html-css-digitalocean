@@ -33,7 +33,7 @@
   background-image: url();
 }
 
-.jumbo {
+.jumbo_top {
   margin-top: 80px;
   padding: 70px 0;
 }
@@ -58,4 +58,8 @@
  background-color: black;
  width: 150px;
  height: 150px;
+}
+
+.jumbo_bottom {
+  text-align: center;
 }
