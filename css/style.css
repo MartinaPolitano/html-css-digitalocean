@@ -63,3 +63,15 @@
 .jumbo_bottom {
   text-align: center;
 }
+
+.jumbo_loghi .list-inline  {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
