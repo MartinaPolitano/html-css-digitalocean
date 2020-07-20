@@ -79,3 +79,9 @@ p {
 h1 {
   text-align: center;
 }
+
+.container .blue {
+  background-color: blue;
+  width: 100%;
+  height: 100px;
+}
