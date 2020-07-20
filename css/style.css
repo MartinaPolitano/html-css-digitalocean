@@ -8,7 +8,7 @@
   left: 0;
   z-index: 1;
   height: 80px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ;
   line-height: 80px;
   color: #black;
   background-color: red;
@@ -16,13 +16,46 @@
 
 .header_top .list-inline li a {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 15px;
   text-decoration: none;
   color: black;
-  padding-left: ;
+  margin-left: 10px;
 }
 
 .logo {
   width: 150px;
   height: 80px;
+}
+
+/* jumbo */
+
+.bg_green {
+  background-image: url();
+}
+
+.jumbo {
+  margin-top: 80px;
+  padding: 70px 0;
+}
+
+.jumbo_text {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+  color: #black;
+  text-align: center;
+}
+
+.jumbo_text h1 {
+  font-size: 10px;
+}
+
+.jumbo_text p {
+  font-size: 15px;
+}
+
+.jumbo_box {
+ background-color: black;
+ width: 150px;
+ height: 150px;
 }
