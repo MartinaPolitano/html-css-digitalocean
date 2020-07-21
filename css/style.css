@@ -1,3 +1,28 @@
+/* DEBUG */
+
+.bg_pink{
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.bg_dblue{
+  background-color: #031B4E;
+}
+
+.bg_gradient{
+  background: linear-gradient(#0547C6, #00209B);
+}
+
+.p_top_bottom_50{
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+
+.p_top_bottom_70{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 /* HEADER */
 
 /* header top */
