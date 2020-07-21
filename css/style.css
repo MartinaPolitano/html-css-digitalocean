@@ -35,8 +35,6 @@
   height: 80px;
   font-family: ;
   line-height: 80px;
-  color: #black;
-  background-color: red;
 }
 
 .header_top .list-inline li a {
@@ -52,6 +50,18 @@
   height: 80px;
 }
 
+#btn {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #black;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: #0095cd;
+}
+
 /* jumbo */
 
 .bg_green {
@@ -61,6 +71,7 @@
 .jumbo_top {
   margin-top: 80px;
   padding: 70px 0;
+  background-image: url(../img/background-header-top.png);
 }
 
 .jumbo_text {
