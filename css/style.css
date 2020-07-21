@@ -126,24 +126,88 @@ background: #0095cd;
   font-size: 27px;
 }
 
-.jumbo_bottom {
+.jumbo_box p {
   text-align: center;
-}
-
-.jumbo_loghi .list-inline  {
-  font-size: 15px;
-  text-decoration: none;
-  color: black;
-  margin-left: 20px;
-  text-align: center;
+  font-size: 12px;
 }
 
 .jumbo_box .list-imput li  {
   font-size: 15px;
   text-decoration: none;
   color: black;
-  margin-left: 10px;
+  list-style-type: none;
+  line-height: 2;
+  height: 3px;
+  margin: 25px;
+  padding: 10px;
 }
+
+.jumbo_bottom {
+  text-align: center;
+}
+
+.jumbo_bottom p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: bold;
+}
+
+.row_bottom {
+  padding: 30px;
+}
+
+.loghi {
+  width: 130px;
+  height: auto;
+}
+
+.jumbo_loghi .list-inline  {
+  text-decoration: none;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+.list-imput {
+  margin: 0 0 0 20px;
+  padding: 5px;
+  width: 70px;
+}
+
+.sottologhi {
+  text-align: center;
+  color: #6495ED;
+}
+
+#imput  {
+  width: 380px;
+  margin: auto;
+  border-radius: 5px;
+  border-width: thin;
+  font-weight: bold;
+}
+
+#btn_imput_blue{
+  background-color: #6495ED;
+  width: 380px;
+  margin: auto;
+  border-radius: 5px;
+  border-style: hidden;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+#btn_imput {
+  width: 380px;
+  margin: auto;
+  border-radius: 5px;
+  border-style: hidden;
+  font-weight: bold;
+  color: grey;
+}
+
 
 .container .blue {
   background-color: blue;
