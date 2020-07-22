@@ -138,8 +138,8 @@ background: #0095cd;
   list-style-type: none;
   line-height: 2;
   height: 3px;
-  margin: 25px;
-  padding: 10px;
+  margin: 15px;
+  padding: 15px;
 }
 
 .jumbo_bottom {
@@ -179,6 +179,52 @@ background: #0095cd;
   text-align: center;
   color: #6495ED;
 }
+
+/*Main*/
+
+.deplay {
+  margin-top: 80px;
+  
+}
+
+.main_top h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 90px;
+}
+
+.main_top p {
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.row .main {
+  margin-top: 90px;
+  padding-top: 90px;
+
+}
+
+ .sinistra li {
+  font-size: 18px;
+  text-decoration: none;
+  color: grey;
+  list-style-type: none;
+  line-height: 0;
+  padding: 20px;
+  border-left: 2px solid grey;
+  height: 20px;
+  left: 50%;
+  margin-left: -3px;
+
+}
+
+
+
+
+
 
 #imput  {
   width: 380px;
