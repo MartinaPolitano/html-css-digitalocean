@@ -177,69 +177,90 @@
   </div>
 </section>
 
-
-
 <!-- designed for developers -->
+<section class="designed">
 <div class="container">
-  <div class="row">
+  <div class="row_designed">
     <div class="col-md-12">
       <h1>Designed for developers</h1>
       <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API</p>
     </div>
-    <div class="col-md-12">
-      <img src="" alt="">
+    <div class="col-md-12-developers">
+      <i class="fas fa-angle-left freccia"></i><img class="developers "src="img\developers.jpg" alt=""><i class="fas fa-angle-right freccia"></i>
     </div>
-    <p>Create compute servers in 55 seconds or less</p>
+    <h6>Create compute servers in 55 seconds or less</h6>
+    <div class="col-md-12 circle">
+    <i class="fas fa-circle"></i>
+    <i class="far fa-circle"></i>
+    <i class="far fa-circle"></i>
+    <i class="far fa-circle"></i>
+    </div>
   </div>
 </div>
+</section>
 
+<!-- sezione features-->
+<section class="features">
 <div class="container">
- <div class="row">
-   <div class="col-md-12">
+ <div class="row_features">
+   <div class="col-md-12 features">
      <h1>The features your business needs</h1>
-   </div>
-  <div class="col-md-4">
-    <h6>pratictable pricing</h6>
-    <p></p>
-    <p>pricing</p>
+  <div class="col-md-4 features">
+    <img src="img\predictable-pricing.svg" alt="">
+    <h6>Pratictable pricing</h6>
+    <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industy-leading pricing structure.</p>
+    <h5>Pricing<i class="fas fa-angle-right"></i></h5>
   </div>
-  <div class="col-md-4">
-    <h6>pratictable pricing</h6>
-    <p></p>
-    <p>pricing</p>
+  <div class="col-md-4 features">
+    <img src="img\world-class-service.svg" alt="">
+    <h6>Word-class service</h6>
+    <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
+    <h5>Support<i class="fas fa-angle-right"></i></h5>
   </div>
-  <div class="col-md-4">
-    <h6>pratictable pricing</h6>
-    <p></p>
-    <p>pricing</p>
+  <div class="col-md-4 features">
+    <img src="img\reliable-platform.svg" alt="">
+    <h6>Reliable Platform</h6>
+    <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all service.</p>
+    <h5>Security <i class="fas fa-angle-right"></i></h5>
   </div>
  </div>
 </div>
+</section>
+<!--fine sezione features-->
+
 <!-- sezione service you costumer !-->
-<div class="container blue">
-  <div class="col-md-6">
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+<div class="container-blue">
+  <div class="title-service">
+  <h1>Service your customers from aroud the word from 12 regions.</h1>
+  </div>
+  <div class="col-md-6 blue">
+    <ul class="list-city">
+      <li> AMS2 <span class="city">Amsterdam,Netherlands</span> <span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+      <li> AMS3 <span class="city"> Amsterdam,Netherlands</span><span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+      <li> BLR1 <span class="city">Bangalore, India</span>      <span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+      <li> FRA1 <span class="city">Frankufurt, German</span>    <span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+      <li> LON1 <span class="city">London, UK</span>            <span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+      <li> NYC1 <span class="city">New York, USA</span>         <span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
     </ul>
    </div>
    <div class="col-md-6">
-     <ul>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
+     <ul class="list-city">
+       <li> AMS2 <span class="city">Amsterdam,Netherlands</span><span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+       <li> AMS3 <span class="city"> Amsterdam,Netherlands</span><span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+       <li> BLR1 <span class="city">Bangalore, India</span><span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+       <li> FRA1 <span class="city">Frankufurt, German</span><span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+       <li> LON1 <span class="city">London, UK</span><span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
+       <li> NYC1 <span class="city">New York, USA</span><span class="test">Test speed<i class="fas fa-angle-right"></i></span></li>
      </ul>
+
     </div>
   </div>
+<!--fine sezione service you costumer-->
+
 <!--sezione main_bottom-->
 
   <div class="container bottom">
-    <div class="row">
+    <div class="row_bottom">
      <div class="col-md-12 col-xs12">
        <h1>Development teams love DigitalOcean</h1>
     </div>
@@ -252,7 +273,7 @@
 <!-- Section 7 - Get started -->
 <section id="started" class="p_top_bottom_70 bg_gradient text_white text-center">
   <h2>Get started now.</h2>
-  <a href="#">Create your account</a>
+  <button type="button"id="btn_imput_blue"> Create your account </button>
 </section>
 <!-- /Section 7 - Get started -->
 </main>
@@ -263,10 +284,11 @@
 <div class="container">
 <div class="row">
 <!-- Colonna 1 - logo+social -->
-<div class="col-xs-12 col-lg-4 bg_acqua">
-  <img src="" alt="Logo DigitalOcean">
+<div class="col-xs-12 col-lg-4 copyright ">
+  <img src="img\logo.svg" alt="Logo DigitalOcean">
   <div class="copyright">
-
+    <p>2018 DigitalOcean,LLC. All rights reserved.</p>
+    <p>Proudly made in NY</p>
   </div>
   <ul class="list-inline">
     <li><i class="fab fa-twitter"></i></li>
@@ -280,7 +302,7 @@
 
 <!-- Colonna 2 - menu 4 colonne -->
 <!-- Col 1 - company -->
-<div class="col-xs-12 col-md-6 col-lg-2 bg_pink">
+<div class="col-xs-12 col-md-6 col-lg-2">
   <h4>Company</h4>
   <ul class="list-unstyled">
     <li><a href="#">About</a></li>
